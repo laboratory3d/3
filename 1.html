@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head class="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/normalize.css" />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <!-- <script src="src/js/main.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title>ИКИТ</title>
+</head>
+<body class="body">
+	<header class="header">
+			<nav class="nav">
+				<div class="logo"><img class="logo__ikit" src="src/img/IKITLogo.png" alt=""></div>
+					<ul class="menu">
+						<li class="menu__Main"><a href="#">Главная</a></li>
+						<li class="menu__Info"><a href="#">Информация</a></li>
+						<li class="menu__News"><a href="#">Новости</a></li>
+						<li class="menu__Contacts"><a href="#">Контакты</a></li>
+						<li class="menu__account">
+							<a class="menu_account__name" href="#">
+							Ваше имя
+							</a>
+							<a href="#" class="menu_account__avatar">
+							<img class="logo__ikit" src="src/img/AvatarUser.png" alt="">
+							</a>
+						</li>
+					</ul>
+			</nav>
+	</header>
+	<div class="main">
+		<div class="main__banner">
+			<h1 class="PersonalPage">Личная страница</h1>	
+		</div>
+		<div class="main__box">
+			<h1 class="HealthyInfo">Полезная информация</h1>
+			<div class="TwoBoxes">
+				<div class="leftbox">
+				  <div class="searchline">
+				  	<input type="text" class="leftbox__input" id="category-name-text">
+				  	<button class="leftbox__button" id="category-name-button">Поиск</button>
+				  </div>	
+					<div class="leftbox__text">
+						<h1 class="leftbox__text__zagol">Заголовок</h1>
+						<ul class="list1">
+							<li class="list1__item"><a href="#">Список 1</a></li>
+							<li class="list1__item"><a href="#">Список 2</a></li>
+							<li class="list1__item"><a href="#">Список 3</a></li>
+							<li class="list1__item"><a href="#">Список 4</a></li>
+						</ul>
+					</div>
+			</div>
+				<div class="rightbox">
+					<div class="rightbox__text">
+						<h1 class="rightbox__title"><strong>СФУ и Российский университет спорта стали партнёрами</strong></h1>
+						<h1 class="rightbox__title__h1">Заголовок</h1>
+						<p class="rightbox__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<h1 class="rightbox__title__h1">Заголовок</h1>
+						<p class="rightbox__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="InterestingStats">
+			<h1 class="Interesting__title">Интересные статьи</h1>
+			<div class="icons">
+                <button class="icon__button" id="icon__list-button">
+                    <svg  viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.5 6H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 12H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 18H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 6H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 12H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 18H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </button>
+                <button class="icon__button icon__button--active" id="icon__grid-button">
+                    <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 3H3.5V10H10.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.5 3H14.5V10H21.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.5 14H14.5V21H21.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.5 14H3.5V21H10.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </button>
+            </div>
+			<h2 class="Interesting__desc">Описание элегантных элементов</h2>
+			<div class="Posts">
+				<article class="article-content">
+					<img class="article__img" src="src/img/Boost.png" alt="">
+					<div class="article__content">
+						<div class="article__wrapper">
+						<h1 class="article__title">Boost your conversion rate</h1>
+						<p class="article__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+						</p>
+						</div>
+						<p class="article__date">
+							Mar 16, 2020 · 6 min read
+						</p>
+					</div>
+				</article>
+				<article class="article-content">
+					<img class="article__img" src="src/img/HowTo.png" alt="">
+					<div class="article__content">
+						<div class="article__wrapper">
+						<h1 class="article__title">How to use search engine optimization to drive sales</h1>
+						<p class="article__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
+						</p>
+						</div>
+						<p class="article__date">
+							Mar 10, 2020 · 4 min read
+						</p>
+					</div>	
+				</article>
+				<article class="article-content">
+					<img class="article__img" src="src/img/Improve.png" alt="">
+					<div class="article__content">
+						<div class="article__wrapper">
+						<h1 class="article__title">Improve your customer experience</h1>
+						<p class="article__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
+						</p>
+						</div>
+						<p class="article__date">
+							Feb 12, 2020 · 11 min read
+						</p>
+					</div>	
+				</article>
+			</div>
+		</div>	
+	</div>
+	<div class="article-add">
+                <div class="article-add__button">
+                    <button class="article-add__button-add" id="article-add__button">Добавить</button>
+                </div>
+                <form class="article-add__form form" onsubmit="return false;">
+                    <div class="form__inputs">
+                        <label id="article-text__name" class="article-text-name">Название статьи</label>
+                        <input type="text" id="article-text-name">
+                        <label id="article-text__url" class="article-text-url">Ссылка на картинку</label>
+                        <input type="text" id="article-text-url">
+                        <label id="article-text__description" class="article-text__description">Описание</label>
+                        <textarea id="article-text-description"></textarea>
+                        <div class="form__buttons">
+                            <button type="reset" class="article-add__button-cancel" id="article-add__button-cancel">Отмена</button>
+                            <button type="submit" class="article-add__button-create" id="article-add__button-create">Создать</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="faq container" id="faq">
+                <h3 class="faq-title">FAQ</h2>
+                <dl class="faq-page">
+                    <dt class="faq-page__question">Вопрос №1: Нет?</dt>
+                    <dd class="faq-page__answer">Верно</dd>
+        
+                    <dt class="faq-page__question">Вопрос №2: Как выглядит рыба?</dt>
+                    <dd class="faq-page__answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.</dd>
+        
+                    <dt class="faq-page__question">Вопрос №3: Вопрос от Алексея</dt>
+                    <dd class="faq-page__answer">Ответ: 6</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+	<footer class="footer__back">
+		<div class="footer">
+			<p class="footer__info">© 2022 Институт космических и информационных технологий СФУ</p>
+		</div>
+	</footer> 
+	<script src="src/js/main.js"></script>
+</body>
+</html>
